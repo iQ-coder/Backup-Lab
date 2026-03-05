@@ -1,4 +1,4 @@
-#[README(6).md](https://github.com/user-attachments/files/25774722/README.6.md)
+
 # Backup Lab — Automated Incremental Backups with rsync and cron
 
 A hands-on lab where I built a fully automated backup system using rsync and cron on two Linux virtual machines. Backups are sent over an encrypted VPN tunnel, scheduled daily, logged for auditing, and tested with a full data loss simulation and restore.
