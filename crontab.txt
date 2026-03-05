@@ -1,0 +1,5 @@
+# Backup cron job - runs every day at 2:00 AM
+# Syncs ~/important-data/ on Ubuntu to ~/backups/ on Kali over VPN
+# Output is logged to backup.log for auditing
+
+0 2 * * * rsync -avz /home/vboxuser/important-data/ IQ@10.8.0.6:~/backups/ >> /home/vboxuser/backup.log 2>&1
