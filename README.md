@@ -12,7 +12,7 @@ A hands-on lab where I built a fully automated backup system using rsync and cro
 | Backup Source | Ubuntu 24.04 | 10.8.0.1 |
 | Backup Destination | Kali Linux | 10.8.0.6 |
 
-**Note:** Backup traffic runs over an OpenVPN tunnel — see [openvpn-lab](https://github.com/IQ/openvpn-lab) for VPN setup.
+**Note:** Backup traffic runs over an OpenVPN tunnel — see [openvpn-lab](https://github.com/iQ-coder/openvpn-homelab) for VPN setup.
 
 ---
 
